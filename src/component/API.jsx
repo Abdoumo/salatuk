@@ -14,7 +14,7 @@ const API = () => {
 
 
   const [ ip, setip ] = useState('');
-  const adanAudio = new Audio('src/assets/9.mp3'); 
+  const adanAudio = new Audio('../../assets/9.mp3'); 
   
   var Url = `https://api.aladhan.com/v1/timingsByCity/${(new Date().toLocaleDateString('en-GB').replaceAll('/','-'))}?city=${willaya}&country=${country}&method=99`;
   useEffect(() => {
