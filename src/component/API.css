@@ -1,0 +1,32 @@
+/* PrayerTimes.module.css */
+.prayer-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .current-time {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .next-prayer {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .countdown {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+input {
+    height: 55px;
+    width: 550px !important;
+    margin-right: 25px !important;
+}
+button.ant-btn.css-dev-only-do-not-override-2q8sxy.ant-btn-primary {
+    height: 47px !important;
+
+}
